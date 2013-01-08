@@ -1,0 +1,8 @@
+﻿<Window x:Class="ViewModelDiscovery_MEF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" DataContext="{Binding Source={StaticResource Locator}, Path=[CustomerViewModel]}">
+    <Grid>
+        <TextBlock Text="{Binding Name}"></TextBlock>
+    </Grid>
+</Window>
