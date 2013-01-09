@@ -109,6 +109,8 @@ In the CustomerViewModel class, I defined a Name property to display a string in
 The Export Attribute used by MEF and the ExportViewModel Attribute used by MEF that contains the ViewModelType property.
 
 
+The sample
+----------
 
 For the sample, you'll find two way to use the ViewModelLocator:
 
